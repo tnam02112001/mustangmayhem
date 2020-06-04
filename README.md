@@ -9,8 +9,11 @@ Additionally, the longer the game runs, which also translates to the farther you
 
 Unfortunately, dying is inevitable, but it is your job to survive for as long as possible. Your score is determined by how far you travel vertically. Enjoy!
 
-## Supported Operating System
-Microsoft Windows, Mac OS, and Linux distros with [Java Development Kit](https://www.oracle.com/java/technologies/javase-downloads.html) preinstalled on all platforms. 
+## System Requirements
+| Requirement | Description |
+| --- | --- |
+| Operating System | Microsoft Windows, Mac OS, Linux |
+| [Java Development Kit] (https://www.oracle.com/java/technologies/javase-downloads.html) | Version 13 or later |
 
 ## Installing and playing Mustang Mayhem
 1. Download the latest [stable realease](https://github.com/tnam02112001/mustangmayhem/releases/latest/download/MustangMayhem.zip)
