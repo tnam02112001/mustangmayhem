@@ -13,7 +13,7 @@ Unfortunately, dying is inevitable, but it is your job to survive for as long as
 Microsoft Windows, Mac OS, and Linux distros with [Java Runtime Environment](https://www.java.com/en/download/) preinstalled on all platforms. 
 
 ## Installing and playing Mustang Mayhem
-1. Download the latest [stable realease](mustangmayhem/releases/latest/download/MustangMayhem.zip)
+1. Download the latest [stable realease](https://github.com/tnam02112001/mustangmayhem/releases/latest/download/MustangMayhem.zip)
 2. Unzip the package
 3. Run MsutangMayhem.jar
 4. Enjoy😉
