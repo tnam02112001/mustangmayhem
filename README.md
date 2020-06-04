@@ -16,7 +16,7 @@ Unfortunately, dying is inevitable, but it is your job to survive for as long as
 | [Java Development Kit](https://www.oracle.com/java/technologies/javase-downloads.html)| Version 13 or later |
 
 ## Installing and playing Mustang Mayhem
-1. Download the latest [stable realease](https://github.com/tnam02112001/mustangmayhem/releases/latest/download/MustangMayhem.zip)
+1. Download the [latest stable realease](https://github.com/tnam02112001/mustangmayhem/releases/latest/download/MustangMayhem.zip)
 2. Unzip the package
 3. Run MsutangMayhem.jar
 4. Enjoy😉
