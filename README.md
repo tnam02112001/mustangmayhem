@@ -15,7 +15,11 @@ Unfortunately, dying is inevitable, but it is your job to survive for as long as
 | Operating System | Microsoft Windows, Mac OS, Linux |
 | [Java SE](https://www.oracle.com/java/technologies/javase-downloads.html)| Version 13 or later |
 
-## Installing and Playing Mustang Mayhem
+## Downloading and Playing Mustang Mayhem
 1. Download the [latest stable realease](https://github.com/tnam02112001/mustangmayhem/releases/latest/download/MustangMayhem.zip)
 2. Unzip the package
 3. Run `MustangMayhem.jar`
+
+>⚠ Note: If you run into any issues openning the program:
+> - Be sure you have already installed [Java SE](https://www.oracle.com/java/technologies/javase-downloads.html) 13 or later on your computer.
+> - Check if any antivirus softwares prevent the game from running. Some antivirus softwares might warn users about opening executable files downloaded from the Internet.
