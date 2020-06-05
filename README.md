@@ -21,5 +21,5 @@ Unfortunately, dying is inevitable, but it is your job to survive for as long as
 3. Run `MustangMayhem.jar`
 
 >⚠ Note: If you run into any issues when opening the game:
-> - Be sure you have already installed [Java SE](https://www.oracle.com/java/technologies/javase-downloads.html) 13 or later on your computer.
+> - Be sure that you have already installed [Java SE](https://www.oracle.com/java/technologies/javase-downloads.html) 13 or later on your computer.
 > - Check if any antivirus software prevents the game from running. Some antivirus software might warn users about opening executable files downloaded from the Internet.
