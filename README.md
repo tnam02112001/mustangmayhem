@@ -14,7 +14,7 @@ Unfortunately, dying is inevitable, but it is your job to survive for as long as
 | Requirement | Description |
 | --- | --- |
 | Operating System | Microsoft Windows, Mac OS, Linux |
-| [Java SE](https://www.oracle.com/java/technologies/javase-downloads.html)| Version 13 or later |
+| Third Party Software | [Java SE](https://www.oracle.com/java/technologies/javase-downloads.html) version 13 or later |
 
 ## Downloading and Playing Mustang Mayhem
 1. Download the [latest stable realease](https://github.com/tnam02112001/mustangmayhem/releases/latest/download/MustangMayhem.zip)
