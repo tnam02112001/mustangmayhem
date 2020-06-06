@@ -26,3 +26,20 @@ Unfortunately, dying is inevitable, but it is your job to survive for as long as
 >⚠ Note: If you run into any issues when opening the game:
 > - Be sure that you have already installed [Java SE](https://www.oracle.com/java/technologies/javase-downloads.html) 13 or later on your computer.
 > - Check if any antivirus software prevents the game from running. Some antivirus software might warn users about opening executable files downloaded from the Internet.
+***
+# Project Overview
+Please take a few minutes to review the overview below:
+
+## Core Logics
+The game generates the world randomly. Each row in the world has a 50-50 chance of becoming either a road or a grass patch. In the case of a grass patch, the program randomly generates up to 5 obstacles, benches, and rocks. In the case of a road, cars will be spawning either from the left or from the right. 
+
+The Mustang is the main character. The player uses arrow keys to control it. The Mustang visually flips its directions based on its last x-directional movement.  The mechanics behind this entity are simple, as the directional cues are all manual. The ghost is simply an animated entity that marks where the Mustang died.
+
+Every car has a buffer value, which represents the spaces between each car. This buffer randomly ranges from two to eight. The Mustang can touch the car from the top, bottom, or back. However, if he runs into the car from the front, he gets run over. Pathing for the cars is simple, as they move either to the left or to the right.  A car has a 50-50 chance of being either a car moving towards the left or towards the right.
+
+Using the Dijkstra pathfinding algorithm, The Hunter tries to get to the Mustang. The longer the game runs, the faster the Hunter is. As a result, the player needs to control the Mustang faster to survive from hunting.
+
+## Development Process
+Our development process took us about one week to finish. Our process went through two stages: the designing stage and the programming stage. As I was proficient in using Adobe Creative Suite, I was in charge of the designing stage. I used Adobe Photoshop to create the environment, UI, and animations of this game.
+
+After the designing stage, my teammate and I worked on the programming stage together. We chose Java and PApplet as our main programming environments. For this project, we had to solve two major challenges: Generating the world randomly, and increasing the difficulty as the game progresses. While my teammate primarily focused on parsing the world, I worked on speeding up certain entities to increase the challenge of the game. 
