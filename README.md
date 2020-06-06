@@ -30,6 +30,11 @@ Unfortunately, dying is inevitable, but it is your job to survive for as long as
 # Project Overview
 Please take a few minutes to review the overview below:
 
+## Development Process
+Our development process took us about one week to finish. Our process went through two stages: the designing stage and the programming stage. As I was proficient in using Adobe Creative Suite, I was in charge of the designing stage. I used Adobe Photoshop to create the environment, UI, and animations of this game.
+
+After the designing stage, my teammate and I worked on the programming stage together. We chose Java and PApplet as our main programming environments. For this project, we had to solve two major challenges: Generating the world randomly, and increasing the difficulty as the game progresses. While my teammate primarily focused on parsing the world, I worked on speeding up certain entities to increase the challenge of the game. 
+
 ## Core Logics
 The game generates the world randomly. Each row in the world has a 50-50 chance of becoming either a road or a grass patch. In the case of a grass patch, the program randomly generates up to 5 obstacles, benches, and rocks. In the case of a road, cars will be spawning either from the left or from the right. 
 
@@ -39,7 +44,3 @@ Every car has a buffer value, which represents the spaces between each car. This
 
 Using the Dijkstra pathfinding algorithm, The Hunter tries to get to the Mustang. The longer the game runs, the faster the Hunter is. As a result, the player needs to control the Mustang faster to survive from hunting.
 
-## Development Process
-Our development process took us about one week to finish. Our process went through two stages: the designing stage and the programming stage. As I was proficient in using Adobe Creative Suite, I was in charge of the designing stage. I used Adobe Photoshop to create the environment, UI, and animations of this game.
-
-After the designing stage, my teammate and I worked on the programming stage together. We chose Java and PApplet as our main programming environments. For this project, we had to solve two major challenges: Generating the world randomly, and increasing the difficulty as the game progresses. While my teammate primarily focused on parsing the world, I worked on speeding up certain entities to increase the challenge of the game. 
