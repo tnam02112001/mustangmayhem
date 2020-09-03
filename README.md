@@ -3,7 +3,7 @@ Mustang Mayhem is a 2D endless-arcade game developed by me and my teammate Brett
 
 ![image](https://github.com/tnam02112001/mustangmayhem/blob/master/Mustang%20Mayhem.jpg)
 
-video: "https://www.youtube.com/embed/NyHtgaiAwWM"
+video: https://www.youtube.com/embed/NyHtgaiAwWM
 
 ## Gameplay
 The goal of our game is simple: Don't die!
