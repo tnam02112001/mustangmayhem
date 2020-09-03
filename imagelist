@@ -3,7 +3,6 @@ obstacle images/rock.bmp
 bench images/benchbig.bmp 255 255 255 255
 rock images/rockbig.bmp 255 255 255 255
 road images/road-big.bmp
-background_default images/none.bmp
 hunter images/hunter.bmp 512 512 512 0
 horseleft images/hl_0000_00.bmp 512 512 512 0
 horseleft images/hl_0001_01.bmp 512 512 512 0
