@@ -5,6 +5,7 @@ Mustang Mayhem is a 2D endless-arcade game developed by me and my teammate Brett
 
 ## Gameplay
 > 🎬[Gameplay Walkthrough](https://youtu.be/NyHtgaiAwWM)
+
 The goal of our game is simple: Don't die!
 
 You are a Mustang in a world of vehicles traveling at deadly speeds, and your job is to survive. Using the arrow keys, you must maneuver around benches, rocks, and cars coming from both your left and right. The stage is constantly moving, and if your character falls behind, it is game over. 
