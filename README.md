@@ -3,7 +3,7 @@ Mustang Mayhem is a 2D endless-arcade game developed by me and my teammate Brett
 
 ![image](https://github.com/tnam02112001/mustangmayhem/blob/master/Mustang%20Mayhem.jpg)
 
-[Gameplay Walkthrough](https://youtu.be/NyHtgaiAwWM)
+
 
 ## Gameplay
 The goal of our game is simple: Don't die!
@@ -13,6 +13,7 @@ You are a Mustang in a world of vehicles traveling at deadly speeds, and your jo
 Additionally, the longer the game runs, which also translates to the farther you travel, the faster the cars will drive, making it more difficult to progress. There is also an additional factor that you must consider during your journey: The Hunter. The Hunter is always chasing you, and if he catches you, game over.
 
 Unfortunately, dying is inevitable, but it is your job to survive for as long as possible. Your score is determined by how far you travel vertically. Enjoy!
+> 🎬[Gameplay Walkthrough](https://youtu.be/NyHtgaiAwWM)
 
 ## System Requirements
 | Requirement | Description |
