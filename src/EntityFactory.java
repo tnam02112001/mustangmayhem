@@ -171,8 +171,6 @@ public class EntityFactory {
                                        List<PImage> images)
    {
       return new Obstacle(position, images );
-
-
-      }
+   }
 
 }
