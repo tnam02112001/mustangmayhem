@@ -1,5 +1,5 @@
 # Mustang Mayhem
-Mustang Mayhem is a 2D endless-arcade game developed by me and my teammate Brett Gowling in March 2020. With the main goal of honoring the mascot of Cal Poly, we decided to choose Musty the Mustang as the main character of this game.
+Mustang Mayhem is a 2D endless-arcade game developed by me and my teammate Brett Gowling from January to March 2020. With the main goal of honoring the mascot of Cal Poly, we decided to choose Musty the Mustang as the main character of this game.
 
 ![image](https://github.com/tnam02112001/mustangmayhem/blob/master/Mustang%20Mayhem.jpg)
 
