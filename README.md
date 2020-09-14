@@ -37,6 +37,11 @@ Our development process took us about one week to finish. Our process went throu
 
 After the designing stage, my teammate and I worked on the programming stage together. We chose Java and PApplet as our main programming environments. For this project, we had to solve two major challenges: Generating the world randomly, and increasing the difficulty as the game progresses. While my teammate primarily focused on parsing the world, I worked on speeding up certain entities to increase the challenge of the game. 
 
+To increase the difficulty as the game progress, I decided to create a new Difficulty Class extending the TimerTask class. The class contains a DifficultyFactor int variable that keeps increasing as the game runs. The Cars and the Hunters will speed up accordingly due to the increasing DifficultyFactor. To prevent Entities from getting too fast that the game becomes unplayable, I also set the maximum speed that Entities can get.
+
+## Design Patern
+This project was designed using a Factory Design Pattern. In association with the Difficulty.java class, the EntityFactory.java class contains all the methods that create all Entities that are used in the world. 
+
 ## Core Logics
 The game generates the world randomly. Each row in the world has a 50-50 chance of becoming either a road or a grass patch. In the case of a grass patch, the program randomly generates up to 5 obstacles, benches, and rocks. In the case of a road, cars will be spawning either from the left or from the right. 
 
@@ -44,5 +49,4 @@ The Mustang is the main character. The player uses arrow keys to control it. The
 
 Every car has a buffer value, which represents the spaces between each car. This buffer randomly ranges from two to eight. The Mustang can touch the car from the top, bottom, or back. However, if he runs into the car from the front, he gets run over. Pathing for the cars is simple, as they move either to the left or to the right.  A car has a 50-50 chance of being either a car moving towards the left or towards the right.
 
-Using the Dijkstra pathfinding algorithm, The Hunter tries to get to the Mustang. The longer the game runs, the faster the Hunter is. As a result, the player needs to control the Mustang faster to survive from hunting.
-
+Using the Dijkstra pathfinding algorithm, The Hunter tries to get to the Mustang. The longer the game runs, the faster the Hunter and the cars are. As a result, the player needs to control the Mustang faster to survive from hunting.
